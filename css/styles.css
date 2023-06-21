@@ -1,0 +1,102 @@
+body{
+    background-color: #374259;
+    margin: 0px;
+    text-align: center;
+}
+
+.course-container{
+    margin-left: 5%;
+    padding: 20px;
+    position: relative;
+    left: 600px;
+    /* background-color: #EEE3CB; */
+    background-image: linear-gradient(to bottom right,#D8C4B6 ,#967e76);
+    width: 50%;
+    height: 675px;
+    /* border-radius: 20px; */
+    overflow-y: scroll;
+}
+.course {
+
+    width: 80%;
+    height: 130px;
+    background-color: whitesmoke;
+    margin: 10px 0px;
+    padding: 3px;
+    border-radius: 20px;
+
+
+
+}
+
+.course:hover{
+    background-color: #082032;
+    color: aliceblue;
+}
+h1{
+    color: azure;
+    font-family: 'Rubik';
+    text-align: center;
+}
+h2{
+    font-family: 'nunito sans',sans-serif;
+    margin: 8px;
+}
+p{
+    color: black;
+    font-family: 'kalam',sans-serif; 
+    margin: 10px;
+}
+
+h4{
+    color: #655e65;
+    font-family: 'kalam',sans-serif;
+}
+
+/* .mountain1{
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 90px;
+} */
+#searchbar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: azure;
+    border-color: #967e76;
+    border-width: 3px;
+    border-style:solid;
+    left: 10%;
+    top: 10%;
+}
+.description{
+    background-color: #374259;
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    text-align: left;
+}
+
+.hide{
+    display: none;
+}
+.description p{
+    color: azure;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    font-size: 1.5em;
+    font-family: 'Rubik';
+    line-height: 1.25;
+}
+
+.homepic{
+
+    width: 30%;
+    height: 30%;
+}
