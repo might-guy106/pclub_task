@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+.circle{
+    position: absolute;
+    top: -40%;
+    left: -15%;
+    height: 100% ;
+    width: 50%;
+    border-radius: 100%;
+    background-color: #7d7d7d;
+    z-index: -1;
+}
+#home{
+    padding: 3% 6%;
+    padding-bottom: 2%;
+}
+
+.intro{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    font-family: "Rubik",sans-serif;
+}
+
+.intro h1{
+    font-weight: bold;
+    padding-right: 5%;
+}
+.intro p{
+    line-height: 1.4;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 4% 10% 0% 2%;
+}
+
+#searchbar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: #967e76;
+    border-width: 3px;
+    border-style:solid;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.hide{
+    display: none;
+}
+
+.course-container{
+    background-image: linear-gradient(to bottom right,#D8C4B6 ,#967e76);
+    border-radius: 20px;
+    padding: 2%;
+    max-height: 640px;
+    overflow-y: auto;
+}
+
+.course-container::-webkit-scrollbar{
+    display: none;
+}
+
+.course{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 3%;
+
+}
+
+.course:hover{
+    background-color: #082032;
+    color: aliceblue;
+}
+
+.course h2{
+    font-family: "nunito-sans",sans-serif;
+}
+.course p{
+    font-family: "kalam",sans-serif;
+}
